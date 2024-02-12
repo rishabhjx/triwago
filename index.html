@@ -1,0 +1,535 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Triwago</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Bootstrap Link -->
+
+
+  <!-- Font Awesome Cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!-- Font Awesome Cdn -->
+
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+</head>
+
+<body>
+
+
+
+
+
+
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" id="logo"><span>T</span>riwago</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span><i class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#book">Book</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#packages">Packages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallary</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+
+
+
+
+  <!-- Home Section Start -->
+  <div class="home">
+    <div class="content">
+      <h5>Welcome To Triwago</h5>
+      <h1>Visit <span class="changecontent"></span></h1>
+      <p>"Discover your next adventure with Triwago."</p>
+      <a href="#book">Book Place</a>
+    </div>
+  </div>
+  <!-- Home Section End -->
+
+
+
+
+
+  <!-- Section Book Start -->
+  <section class="book" id="book">
+    <div class="container">
+
+      <div class="main-text">
+        <h1><span>B</span>ook</h1>
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-6 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/book-img.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-md-6 py-3 py-md-0">
+          <form action="#">
+
+            <input type="text" class="form-control" placeholder="Where To" required><br>
+            <input type="text" class="form-control" placeholder="How Many" required><br>
+            <input type="date" class="form-control" placeholder="Arrivals" required><br>
+            <input type="date" class="form-control" placeholder="Leaving" required><br>
+            <textarea class="form-control" rows="5" name="text" placeholder="Enter Your Name & Details"></textarea>
+            <input type="submit" value="Book Now" class="submit" required>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Section Book End -->
+
+
+
+
+
+
+
+
+  <!-- Section Packages Start -->
+
+  <section class="packages" id="packages">
+    <div class="container">
+
+      <div class="main-txt">
+        <h1><span>P</span>ackages</h1>
+      </div>
+
+      <div class="row" style="margin-top: 30px;">
+
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img src="./images/uk.png" alt="">
+            <div class="card-body">
+              <h3>United Kingdom</h3>
+              <p>Experience the charm of the United Kingdom with our bespoke travel packages. From the historic
+                landmarks of London to the breathtaking landscapes of the Scottish Highlands, immerse yourself in a
+                journey filled with culture, history, and unparalleled beauty.</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Price: <strong>₹5000</strong></h6>
+              <a href="#book">Book Now</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img src="./images/france.png" alt="">
+            <div class="card-body">
+              <h3>France</h3>
+              <p>Indulge in the romance and sophistication of France with our curated travel packages. From the iconic
+                Eiffel Tower in Paris to the sun-kissed vineyards of Bordeaux, let us guide you through a journey of
+                exquisite cuisine, art, and joie de vivre.</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Price: <strong>₹9000</strong></h6>
+              <a href="#book">Book Now</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img src="./images/pakistan.png" alt="">
+            <div class="card-body">
+              <h3>Pakistan</h3>
+              <p>Discover the beauty and diversity of Pakistan with our carefully crafted travel packages. From the
+                majestic mountains of the Karakoram Range to the vibrant cities of Lahore and Karachi, embark on an
+                adventure that promises awe-inspiring landscapes and warm hospitality.</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Price: <strong>₹7000</strong></h6>
+              <a href="#book">Book Now</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row" style="margin-top: 30px;">
+
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img src="./images/italy.png" alt="">
+            <div class="card-body">
+              <h3>Italy</h3>
+              <p>Embark on a journey through Italy's rich history, art, and cuisine with our handpicked travel packages.
+                From the ancient ruins of Rome to the picturesque landscapes of Tuscany, immerse yourself in la dolce
+                vita and create memories to last a lifetime.</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Price: <strong>₹8000</strong></h6>
+              <a href="#book">Book Now</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img src="./images/india.png" alt="">
+            <div class="card-body">
+              <h3>India</h3>
+              <p>Experience the vibrant colors, diverse cultures, and rich heritage of India with our meticulously
+                curated travel packages. From the majestic monuments of Delhi to the tranquil backwaters of Kerala,
+                embark on a journey that ignites your senses and leaves you spellbound.</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Price: <strong>₹10000</strong></h6>
+              <a href="#book">Book Now</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img src="./images/us.png" alt="">
+            <div class="card-body">
+              <h3>United States</h3>
+              <p>Embark on an adventure across the diverse landscapes and iconic landmarks of the United States with our
+                customized travel packages. From the bustling streets of New York City to the awe-inspiring natural
+                wonders of Yellowstone National Park, let us guide you through an unforgettable journey of discovery.
+              </p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Price: <strong>₹6000</strong></h6>
+              <a href="#book">Book Now</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+  </section>
+  <!-- Section Packages End -->
+
+
+
+
+
+
+
+  <!-- Section Services Start -->
+  <section class="services" id="services">
+    <div class="container">
+
+      <div class="main-txt">
+        <h1><span>S</span>ervices</h1>
+      </div>
+
+      <div class="row" style="margin-top: 30px;">
+
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fas fa-hotel"></i>
+            <div class="card-body">
+              <h3>Affordable Hotel</h3>
+              <p>Discover comfort and convenience without breaking the bank. Our selection of affordable hotels ensures
+                a cozy stay at budget-friendly prices, so you can focus on making memories, not worrying about your
+                wallet.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fas fa-utensils"></i>
+            <div class="card-body">
+              <h3>Food & Drinks</h3>
+              <p>Savor the flavors of your destination with our curated selection of culinary experiences. From local
+                delicacies to international cuisine, embark on a gastronomic journey that tantalizes your taste buds and
+                leaves you craving more.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fas fa-bullhorn"></i>
+            <div class="card-body">
+              <h3>Safety Guide</h3>
+              <p>Your safety is our priority. Our expert safety guides ensure you explore with peace of mind, offering
+                valuable tips and assistance to navigate your destination safely and securely, so you can focus on
+                enjoying every moment of your adventure.</p>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+
+      <div class="row" style="margin-top: 30px;">
+
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fas fa-globe-asia"></i>
+            <div class="card-body">
+              <h3>Around The World</h3>
+              <p>Embark on a journey of discovery and exploration with our around-the-world tours. From iconic landmarks
+                to hidden gems, experience the diverse cultures, breathtaking landscapes, and rich history that our
+                planet has to offer, creating memories that last a lifetime.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fas fa-plane"></i>
+            <div class="card-body">
+              <h3>Fastest Travel</h3>
+              <p>Maximize your time and minimize your travel stress with our fastest travel options. Whether by air,
+                land, or sea, we prioritize efficiency and convenience, ensuring you reach your destination swiftly and
+                smoothly, ready to embark on your next adventure without delay.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fas fa-hiking"></i>
+            <div class="card-body">
+              <h3>Adventures</h3>
+              <p>Embrace your adventurous spirit and push your boundaries with our thrilling adventure packages. From
+                adrenaline-pumping activities to off-the-beaten-path excursions, embark on daring escapades that ignite
+                your passion for exploration and leave you with unforgettable memories.</p>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+  </section>
+  <!-- Section Services End -->
+
+
+
+
+  <!-- Section Gallary Start -->
+  <section class="gallary" id="gallary">
+    <div class="container">
+
+      <div class="main-txt">
+        <h1><span>G</span>allary</h1>
+      </div>
+
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g1.png" alt="" height="230px">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g2.png" alt="" height="230px">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g3.png" alt="" height="230px">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g4.png" alt="" height="230px">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g5.png" alt="" height="230px">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/g6.png" alt="" height="230px">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Section Gallary End -->
+
+
+
+
+
+
+
+  <!-- About Start -->
+  <section class="about" id="about">
+    <div class="container">
+
+      <div class="main-txt">
+        <h1>About <span>Us</span></h1>
+      </div>
+
+      <div class="row" style="margin-top: 50px;">
+
+        <div class="col-md-6 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/about-img.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-md-6 py-3 py-md-0">
+          <h2>How Travel Agency Work</h2>
+          <p>"Welcome to Triwago, where journeys become unforgettable adventures! With a passion for exploration and a
+            commitment to crafting personalized experiences, we're your trusted partner in discovering the world's
+            hidden treasures. Whether you crave the thrill of an exotic escapade, the serenity of a tranquil retreat, or
+            the cultural richness of a historical landmark, our expert team is dedicated to curating seamless
+            itineraries tailored to your desires. Embark on a voyage with us, and let your dreams take flight!"</p>
+          <button id="about-btn">Read More...</button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- About End -->
+
+
+
+
+
+
+
+
+  <!-- Footer Start -->
+  <footer id="footer">
+    <h1><span>T</span>ravel</h1>
+    <p>"Explore the world with Travel. Contact us for personalized itineraries and unforgettable
+      adventures."</p>
+    <div class="social-links">
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+    </div>
+    <div class="credit">
+      <p>Designed By <a href="#">Rishabh Jain</a></p>
+    </div>
+    <div class="copyright">
+      <p>&copy;Copyright Rishabh Jain. All Rights Reserved</p>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
